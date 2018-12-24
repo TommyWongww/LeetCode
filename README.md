@@ -161,7 +161,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 005| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [C++](./C++/longest-palindromic-substring.cpp) [Python](./Python/longest-palindromic-substring.py) | _O(n)_ | _O(n)_ |  Medium || `Manacher's Algorithm`
-006| [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [C++](./C++/zigzag-conversion.cpp) [Python](./Python/zigzag-conversion.py) | _O(n)_ | _O(1)_        | Easy           ||
+006| [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [C++](./C++/zigzag-conversion.cpp) [Python](./Python/zigzag-conversion.py) | _O(n)_ | _O(1)_        | Medium           ||
 008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [C++](./C++/string-to-integer-atoi.cpp) [Python](./Python/string-to-integer-atoi.py) | _O(n)_ | _O(1)_ | Easy      ||
 014| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/longest-common-prefix.cpp) [Python](./Python/longest-common-prefix.py) | _O(n * k)_   | _O(1)_  | Easy           ||
 028| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C++](./C++/implement-strstr.cpp) [Python](./Python/implement-strstr.py) | _O(n + k)_   | _O(k)_  | Easy           || `KMP Algorithm`
@@ -233,7 +233,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 002| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./C++/add-two-numbers.cpp) [Python](./Python/add-two-numbers.py) | _O(n)_   | _O(1)_          | Medium         ||
 021| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [C++](./C++/merge-two-sorted-lists.cpp) [Python](./Python/merge-two-sorted-lists.py) | _O(n)_ | _O(1)_ | Easy         ||
 023| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./C++/merge-k-sorted-lists.cpp) [Python](./Python/merge-k-sorted-lists.py) | _O(nlogk)_| _O(1)_| Hard          | | Heap, Divide and Conquer
-024| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [C++](./C++/swap-nodes-in-pairs.cpp) [Python](./Python/swap-nodes-in-pairs.py)   | _O(n)_          | _O(1)_          | Easy         ||
+024| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [C++](./C++/swap-nodes-in-pairs.cpp) [Python](./Python/swap-nodes-in-pairs.py)   | _O(n)_          | _O(1)_          | Medium         ||
 025| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [C++](./C++/reverse-nodes-in-k-group.cpp) [Python](./Python/reverse-nodes-in-k-group.py) | _O(n)_       | _O(1)_         | Hard         ||
 061| [Rotate List](https://leetcode.com/problems/rotate-list/)| [C++](./C++/rotate-list.cpp) [Python](./Python/rotate-list.py)   | _O(n)_          | _O(1)_          | Medium         ||  
 082| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [C++](./C++/remove-duplicates-from-sorted-list-ii.cpp) [Python](./Python/remove-duplicates-from-sorted-list-ii.py) | _O(n)_       | _O(1)_         | Medium         ||
@@ -417,7 +417,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 168| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [C++](./C++/excel-sheet-column-title.cpp) [Python](./Python/excel-sheet-column-title.py) | _O(logn)_ | _O(1)_ | Easy ||
 171| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [C++](./C++/excel-sheet-column-number.cpp) [Python](./Python/excel-sheet-column-number.py) | _O(n)_ | _O(1)_ | Easy  ||
 172| [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [C++](./C++/factorial-trailing-zeroes.cpp) [Python](./Python/factorial-trailing-zeroes.py)  | _O(1)_ | _O(1)_ | Easy         ||
-223| [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [C++](./C++/rectangle-area.cpp)  [Python](./Python/rectangle-area.py)  | _O(1)_ | _O(1)_ | Easy         ||
+223| [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [C++](./C++/rectangle-area.cpp)  [Python](./Python/rectangle-area.py)  | _O(1)_ | _O(1)_ | Medium         ||
 233| [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [C++](./C++/number-of-digit-one.cpp)  [Python](./Python/number-of-digit-one.py)  | _O(1)_ | _O(1)_ | Hard        | CTCI, LintCode|
 248| [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/) | [C++](./C++/strobogrammatic-number-iii.cpp)  [Python](./Python/strobogrammatic-number-iii.py)  | _O(5^(n/2))_ | _O(n)_ | Hard         |📖||
 258| [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](./C++/add-digits.cpp)  [Python](./Python/add-digits.py)  | _O(1)_ | _O(1)_ | Easy         |||
@@ -496,7 +496,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-019| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [C++](./C++/remove-nth-node-from-end-of-list.cpp) [Python](./Python/remove-nth-node-from-end-of-list.py) | _O(n)_       | _O(1)_         | Easy         || 
+019| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [C++](./C++/remove-nth-node-from-end-of-list.cpp) [Python](./Python/remove-nth-node-from-end-of-list.py) | _O(n)_       | _O(1)_         | Medium         || 
 086| [Partition List](https://leetcode.com/problems/partition-list/)| [C++](./C++/partition-list.cpp) [Python](./Python/partition-list.py) | _O(n)_       | _O(1)_         | Medium         || 
 141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [C++](./C++/linked-list-cycle.cpp) [Python](./Python/linked-list-cycle.py) | _O(n)_ | _O(1)_         | Easy         || 
 142| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](./C++/linked-list-cycle-ii.cpp) [Python](./Python/linked-list-cycle-ii.py) | _O(n)_ | _O(1)_   | Medium         ||
@@ -601,7 +601,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## Breadth-First Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [C++](./C++/binary-tree-level-order-traversal.cpp) [Python](./Python/binary-tree-level-order-traversal.py)| _O(n)_| _O(n)_| Easy  || 
+102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [C++](./C++/binary-tree-level-order-traversal.cpp) [Python](./Python/binary-tree-level-order-traversal.py)| _O(n)_| _O(n)_| Medium  || 
 107| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [Python](./Python/binary-tree-level-order-traversal-ii.py) | _O(n)_| _O(n)_| Easy  ||
 103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python](./Python/binary-tree-zigzag-level-order-traversal.py) | _O(n)_| _O(n)_| Medium  ||  
 117| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Python](./Python/populating-next-right-pointers-in-each-node-ii.py)| _O(n)_ | _O(1)_ | Hard ||
@@ -655,7 +655,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 638| [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | [C++](./C++/shopping-offers.cpp) [Python](./Python/shopping-offers.py) | _O(n * 2^n)_          | _O(n)_          | Medium           ||
 690| [Employee Importance](https://leetcode.com/problems/employee-importance/) | [C++](./C++/employee-importance.cpp) [Python](./Python/employee-importance.py) | _O(n)_          | _O(h)_          | Easy           || DFS, BFS
 694| [Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) | [C++](./C++/number-of-distinct-islands.cpp) [Python](./Python/number-of-distinct-islands.py) | _O(m * n)_          | _O(m * n)_          | Medium           |📖||
-695| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [C++](./C++/max-area-of-island.cpp) [Python](./Python/max-area-of-island.py) | _O(m * n)_          | _O(m * n)_          | Easy           ||
+695| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [C++](./C++/max-area-of-island.cpp) [Python](./Python/max-area-of-island.py) | _O(m * n)_          | _O(m * n)_          | Medium           ||
 711| [Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/) | [C++](./C++/number-of-distinct-islands-ii.cpp) [Python](./Python/number-of-distinct-islands-ii.py) | _O((m * n) * log(m * n))_          | _O(m * n)_          | Hard           |📖| Hash |
 733| [Max Area of Island](https://leetcode.com/problems/flood-fill/) | [C++](./C++/flood-fill.cpp) [Python](./Python/flood-fill.py) | _O(m * n)_          | _O(m * n)_          | Easy           ||
 749| [Contain Virus](https://leetcode.com/problems/contain-virus/) | [C++](./C++/contain-virus.cpp) [Python](./Python/contain-virus.py) | _O((m * n)^(4/3))_          | _O(m * n)_          | Hard           || Simulation|
